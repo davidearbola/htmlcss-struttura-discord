@@ -16,7 +16,7 @@ body {
     font-family: sans-serif;
 }
 
-.dotted {
+.dashed {
     border: 2px dashed black;
 }
 
@@ -103,3 +103,49 @@ header {
  }
 
  /* ********************* fine main ***********************/
+
+ /* ********************* footer ***********************/
+
+ footer {
+    background-color: #23272A;
+    padding-bottom: 0.3rem;
+ }
+
+.col-1 {
+    background-color: #F08080;
+    height: 400px;
+    width: 30%;
+}
+
+.col-2 {
+    width: 70%;
+    display: flex;
+}
+
+.col-2-1,
+.col-2-2,
+.col-2-3,
+.col-2-4 {
+    width: calc(100% / 4);
+    background-color: #4DB3AB;
+    border-color: white;
+}
+
+.first-section-footer {
+    padding: 0.3rem 0 3rem 0;
+}
+
+/* ******************* menu footer ************************ */
+
+.menu-footer {
+    justify-content: space-between;
+    background-color: #4DB3AB;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+.logo-footer,
+.button-footer {
+    padding: 0.5rem;
+    background-color: #F5B6C1;
+}
