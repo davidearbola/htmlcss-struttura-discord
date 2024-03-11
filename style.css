@@ -1,6 +1,69 @@
+/* ********* CSS COMUNE ********** */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.flex-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.dotted {
+    border: 3px dashed black;
+}
+
+/* ************* regole header ************ */
+
+header {
+    background-color: #ADD8E6;
+    padding-bottom: 0.3rem;
+}
+
+/* ************* regole menu dentro header ************ */
+
+.logo,
+.nav,
+.login {
+    background-color: #DAA53B;
+    margin: 1rem 0;
+}
+
+.logo {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+.nav {
+    text-align: center;
+    width: 60%;
+    padding: 0.5rem;
+}
+
+.login {
+    text-align: right;
+    width: 20%;
+    padding: 0.5rem;
+}
+
+
+/* ************* regole box rosa dentro header ************ */
+
+.back {
+    background-color: #0A238B;
+    padding: 3rem 0;
+}
+
+.box-rosa {
+    background-color: #EE82EE;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
