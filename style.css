@@ -17,7 +17,19 @@ body {
 }
 
 .dotted {
-    border: 3px dashed black;
+    border: 2px dashed black;
+}
+
+.padd-top-bottom {
+    padding: 3rem 0;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.back-grey {
+    background-color: #D3D3D3;
 }
 
 /* ************* regole header ************ */
@@ -54,11 +66,10 @@ header {
 }
 
 
-/* ************* regole box rosa dentro header ************ */
+/* ************* regole sfondo blu box rosa dentro header ************ */
 
-.back {
+.back-blue {
     background-color: #0A238B;
-    padding: 3rem 0;
 }
 
 .box-rosa {
@@ -67,3 +78,28 @@ header {
     height: 300px;
     margin: auto;
 }
+
+/* ****************** fine header *********************** */
+
+/* ******************** regole main ******************** */
+ 
+.col-blue {
+    height: 400px;
+    width: 60%;
+    background-color: #2A8FF7;
+ }
+
+ .col-pink {
+    height: 400px;
+    width: 40%;
+    background-color: #F6BFCA;
+ }
+
+ .box-green {
+    height: 750px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #3F8B24;
+ }
+
+ /* ********************* fine main ***********************/
