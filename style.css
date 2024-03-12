@@ -1,4 +1,4 @@
-/* ********* CSS COMUNE ********** */
+/* **************** Common Style ********************* */
 
 * {
     margin: 0;
@@ -6,146 +6,146 @@
     box-sizing: border-box;
 }
 
-.flex-container {
-    display: flex;
-    width: 60%;
-    margin: 0 auto;
-}
-
 body {
     font-family: sans-serif;
 }
 
-.dashed {
-    border: 2px dashed black;
+.debug footer {
+    min-height: 10rem;
 }
 
-.padd-top-bottom {
-    padding: 3rem 0;
+.debug .column-nav-small,
+.debug .column-nav-big,
+.debug .jumbo-content,
+.debug .col-big,
+.debug .col-small,
+.debug .col-single,
+.debug .social,
+.debug .col-link-1,
+.debug .col-link-2,
+.debug .col-link-3,
+.debug .col-link-4,
+.debug .col-logo,
+.debug .col-sign {
+    border: dashed 2px black;
 }
 
-.back-white {
-    background-color: white;
+.debug hr {
+    color: lightgray;
+    margin-bottom: 1rem;
 }
 
-.back-grey {
-    background-color: #D3D3D3;
+.debug .footer-nav {
+    background-color: lightblue;
 }
 
-/* ************* regole header ************ */
-
-header {
-    background-color: #ADD8E6;
-    padding-bottom: 0.3rem;
-}
-
-/* ************* regole menu dentro header ************ */
-
-.logo,
-.nav,
-.login {
-    background-color: #DAA53B;
-    margin: 1rem 0;
-}
-
-.logo {
-    width: 20%;
-    padding: 0.5rem;
-}
-
-.nav {
-    text-align: center;
-    width: 60%;
-    padding: 0.5rem;
-}
-
-.login {
-    text-align: right;
-    width: 20%;
-    padding: 0.5rem;
-}
-
-
-/* ************* regole sfondo blu box rosa dentro header ************ */
-
-.back-blue {
-    background-color: #0A238B;
-}
-
-.box-rosa {
-    background-color: #EE82EE;
-    width: 50%;
-    height: 300px;
-    margin: auto;
-}
-
-/* ****************** fine header *********************** */
-
-/* ******************** regole main ******************** */
- 
-.col-blue {
-    height: 400px;
-    width: 60%;
-    background-color: #2A8FF7;
- }
-
- .col-pink {
-    height: 400px;
-    width: 40%;
-    background-color: #F6BFCA;
- }
-
- .box-green {
-    height: 750px;
-    width: 60%;
+.boxed {
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: #3F8B24;
- }
-
- /* ********************* fine main ***********************/
-
- /* ********************* footer ***********************/
-
- footer {
-    background-color: #23272A;
-    padding-bottom: 0.3rem;
- }
-
-.col-1 {
-    background-color: #F08080;
-    height: 400px;
-    width: 30%;
 }
 
-.col-2 {
-    width: 70%;
+.column {
     display: flex;
 }
 
-.col-2-1,
-.col-2-2,
-.col-2-3,
-.col-2-4 {
+.padding-top-bottom {
+    padding: 2rem 0;
+}
+
+/* **************** header ********************* */
+
+/* ******** navbar ********* */
+
+header {
+    background-color: lightblue;
+}
+
+header .column-nav-small,
+header .column-nav-big {
+    background-color: orange;
+    padding: 1rem;
+}
+
+.column-nav-small {
+    min-width: 20%;
+}
+
+.column-nav-big {
+    min-width: 60%;
+    text-align: center;
+}
+
+/* ********** jumbotron *************/
+
+.jumbotron {
+    background-color: blue;
+}
+
+.jumbo-content {
+    background-color: violet;
+    max-width: 50%;
+}
+
+/* ********************** fine header ********************** */
+
+/*************************** main ***************** */
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: lightgray;
+}
+
+.col-big {
+    min-width: 60%;
+    background-color: aqua;
+}
+
+.col-small {
+    min-width: 40%;
+    background-color: deeppink;
+}
+
+.col-single {
+    background-color: green;
+    width: 100%;
+}
+
+/*************************** fine main ***************************/
+
+/***************************** footer *****************************/
+
+footer {
+    background-color: #222;
+    padding-bottom: 1rem;
+}
+
+/********************* prima sezione footer *********************/
+
+.social {
+    width: 30%;
+    background-color: deeppink;
+}
+
+.link {
+    width: 70%;
+}
+
+.link > div {
+    background-color: aqua;
     width: calc(100% / 4);
-    background-color: #4DB3AB;
-    border-color: white;
 }
 
-.first-section-footer {
-    padding: 0.3rem 0 3rem 0;
+/********************* seconda sezione footer *********************/
+
+.col-logo,
+.col-sign {
+    background-color: azure;
 }
 
-/* ******************* menu footer ************************ */
-
-.menu-footer {
+.footer-nav {
     justify-content: space-between;
-    background-color: #4DB3AB;
-    padding: 1rem 0;
-    margin-top: 3rem;
-}
-
-.logo-footer,
-.button-footer {
-    padding: 0.5rem;
-    background-color: #F5B6C1;
+    padding: 2rem 1rem;
 }

@@ -4,67 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Titolo</title>
+    <title>HTMLCSS Struttura Discord</title>
 </head>
-<body>
-    <!-- Header -->
+<body class="debug">
+    <!-- header -->
     <header>
-        <!-- Barra menu -->
-        <div class="flex-container">
-            <div class="logo dashed">Logo</div>
-            <nav class="nav dashed">link link link link</nav>
-            <div class="login dashed">login</div>
-        </div>
-        <!-- box rosa -->
-        <div class="back-blue padd-top-bottom">
-            <div class="box-rosa dashed"></div>
+        <!-- sezione navbar -->
+        <nav class="boxed column padding-top-bottom">
+            <div class="column-nav-small">logo</div>
+            <div class="column-nav-big">link link link link</div>
+            <div class="column-nav-small">sign in</div>
+        </nav>
+        <!-- sezione jumbotron e contenuto -->
+        <div class="jumbotron padding-top-bottom">
+            <div class="boxed jumbo-content">contenuto</div>
         </div>
     </header>
-    <!-- Main -->
+    <!-- main -->
     <main>
-        <!-- prima sezione left-blue right-rosa -->
-        <section class="back-white">
-            <div class="flex-container padd-top-bottom">
-                <div class="col-blue dashed"></div>
-                <div class="col-pink dashed"></div>
+        <!-- prima sezione 2 colonne -->
+        <section class="light padding-top-bottom">
+            <div class="boxed column">
+                <div class="col-big">contenuto</div>
+                <div class="col-small">contenuto</div>
             </div>
         </section>
-        <!-- seconda sezione left-pink right-blue -->
-        <section class="back-grey">
-            <div class="flex-container padd-top-bottom">
-                <div class="col-pink dashed"></div>
-                <div class="col-blue dashed"></div>
+        <!-- seconda sezione 2 colonne -->
+        <section class="dark padding-top-bottom">
+            <div class="boxed column">
+                <div class="col-small">contenuto</div>
+                <div class="col-big">contenuto</div>
             </div>
         </section>
-        <!-- terza sezione left-blue right-rosa -->
-        <section class="back-white">
-            <div class="flex-container padd-top-bottom">
-                <div class="col-blue dashed"></div>
-                <div class="col-pink dashed"></div>
+        <!-- terza sezione 2 colonne -->
+        <section class="light padding-top-bottom">
+            <div class="boxed column">
+                <div class="col-big">contenuto</div>
+                <div class="col-small">contenuto</div>
             </div>
         </section>
-        <!-- quarta sezione box verde -->
-        <section class="back-grey padd-top-bottom">
-                <div class="box-green dashed"></div>
+        <!-- quarta sezione 1 colonna-->
+        <section class="dark padding-top-bottom">
+            <div class="boxed column">
+                <div class="col-single">contenuto</div>
+            </div>
         </section>
     </main>
-    <!-- Footer -->
+    <!-- footer -->
     <footer>
-        <!-- prima sezione footer -->
-        <div class="flex-container first-section-footer">
-            <div class="col-1 dashed"></div>
-            <div class="col-2">
-                <div class="col-2-1 dashed"></div>
-                <div class="col-2-2 dashed"></div>
-                <div class="col-2-3 dashed"></div>
-                <div class="col-2-4 dashed"></div>
+        <!-- prima sezione 1 colonna grande + 4 colonne piccole -->
+        <div class="boxed column padding-top-bottom">
+            <div class="social">social</div>
+            <div class="column link">
+                <div class="col-link-1">contenuto</div>
+                <div class="col-link-2">contenuto</div>
+                <div class="col-link-3">contenuto</div>
+                <div class="col-link-4">contenuto</div>
             </div>
         </div>
-        <!-- seconda sezione footer -->
-        <hr style="color: #D2D2D3;">
-        <div class="flex-container menu-footer">
-            <div class="logo-footer dashed">Logo</div>
-            <div class="button-footer dashed">Button</div>
+        <hr>
+        <!-- seconda sezione colonna con logo e bottone -->
+        <div class="boxed column footer-nav">
+            <div class="col-logo">contenuto</div>
+            <div class="col-sign">ciao</div>
         </div>
     </footer>
 </body>
